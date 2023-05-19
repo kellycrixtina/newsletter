@@ -1,0 +1,43 @@
+<!-- nesse projeto não apliquei responsividade -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Newsletter</title>
+</head>
+<body>
+<!-- Ao pesquisar percebi que tem várias formas de estrutura para newsletter.
+    Minha opção de fazer foi com divs -->
+    <div class="container">
+        <div class="logo">
+            <img src="./imgs/logo.svg" alt="imagem logo rocketnews">
+        </div>
+        <div class="textos">
+            <h1>Atualize ideias e informações em 5 minutos!</h1>
+            <h3>Tudo que você precisa saber para começar seu dia bem e informado</h3>
+            <p>
+                Notícias sobre o universo Rocketseat, perfeito para se preparar para codar &#9749;
+            </p>            
+        </div>        
+        <form action="#" method="POST" id="email">            
+            <label for="digite">Insira seu e-mail:</label> <br>
+            <div class="emails"> 
+                <input type="email" name="email" id="email" placeholder="exemplo@email.com">
+                <button type="submit">
+                    <img src="./imgs/send.svg" alt="imagem de seta"> 
+                </button>
+            </div>
+        </form>
+        <div class="read">
+            <a href="#" target="_blank">Deixe-me ler primeiro <img src="./imgs/arrow-right.svg" alt="imagem de seta"></a>
+        </div>
+    </div>
+<!--  Background do lado direito -->
+    <div class="background">
+        <img src="./imgs/read_news.jpg" alt="imagem de um homem escrevendo">
+    </div>
+</body>
+</html>
